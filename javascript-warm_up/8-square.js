@@ -1,5 +1,3 @@
-
-
 #!/usr/bin/node
 let output;
 const args = process.argv;
