@@ -3,7 +3,7 @@
 #!/usr/bin/node
 let output;
 const arg = process.argv;
-const cnv = Number(args[2]);
+const cnv = Number(arg[2]);
 if (cnv) {
   for (let a = 0; a < cnv; a++) {
     output = '';
