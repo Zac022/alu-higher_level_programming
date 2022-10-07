@@ -1,6 +1,8 @@
 
 
 #!/usr/bin/node
-exports.add = function (a, b) {
-  return (a + b);
+exports.add = function (a, b)
+let sum = a+b;
+ {
+  return (sum);
 };
