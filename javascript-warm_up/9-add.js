@@ -1,5 +1,5 @@
 #!/usr/bin/node
-const arg= process.argv;
+const arg = process.argv;
 const con1 = Number(arg[2]);
 const con2 = Number(arg[3]);
 
