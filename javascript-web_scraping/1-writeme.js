@@ -1,9 +1,11 @@
 #!/usr/bin/node
 const args = process.argv;
-const request = require('request');
+const fileA = args[2];
+const fileB = args[3];
+const fs = require('fs');
 
-request
-  .get(args[2])
-  .on('response', function (response) {
-    console.log('code:', response.statusCode);
-  });
+try {
+  fs.writeFileSync(fileA, fileB, 'utf8');
+} catch (err) {
+  console.log(err);
+}
